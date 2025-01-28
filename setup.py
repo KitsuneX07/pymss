@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name='pymss',
-    version='0.5',
+    version='1.0',
     packages=find_packages(),
     description='Python package for music source separation.',
     long_description=open('README.md', encoding='utf-8').read(),

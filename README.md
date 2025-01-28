@@ -30,15 +30,15 @@ separator = MSSeparator(
         "vocals": "./output/vocals",
         "other": None # None or missing this stem will result in no output file for this stem. This example will output the vocal's stem in ./output/vocals and ignoring the other(instrumental) stem. Making sure the key(s) match the config file.
     },
-    audio_params={"wav_bit_depth": "FLOAT", "flac_bit_depth": "PCM_24", "mp3_bit_rate": "320k"},
-    logger=get_separation_logger(),
-    debug=False,
+    audio_params={"wav_bit_depth": "FLOAT", "flac_bit_depth": "PCM_24", "mp3_bit_rate": "320k"}, # Can be omitted
+    logger=get_separation_logger(), # Can be omitted
+    debug=False, # Can be omitted
     inference_params={
         "batch_size": 4,
         "num_overlap": 1,
         "chunk_size": 1024,
         "normalize": True
-    }
+    } # Can be omitted
 )
 
 # process all audio files in the folder
