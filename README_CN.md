@@ -1,6 +1,6 @@
 # pymss
 用于音乐源分离的 Python 包。
-
+[English](./README.md)  [简体中文]
 ## 安装
 使用 pip 安装 `pymss` 包的示例：
 ```sh

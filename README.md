@@ -1,7 +1,7 @@
 # pymss
 
-Python package for music source separation.
-
+Python package for music source separation. <br>
+[English]   [简体中文](./README_CN.md)
 
 ## Install
 
