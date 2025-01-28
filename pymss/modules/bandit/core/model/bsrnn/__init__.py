@@ -3,8 +3,8 @@ from typing import Iterable, Mapping, Union
 
 from torch import nn
 
-from modules.bandit.core.model.bsrnn.bandsplit import BandSplitModule
-from modules.bandit.core.model.bsrnn.tfmodel import (
+from .bandsplit import BandSplitModule
+from .tfmodel import (
     SeqBandModellingModule,
     TransformerTimeFreqModule,
 )

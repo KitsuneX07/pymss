@@ -3,7 +3,7 @@ from typing import Mapping, Optional
 
 import pytorch_lightning as pl
 
-from modules.bandit.core.data.musdb.dataset import (
+from .dataset import (
     MUSDB18BaseDataset,
     MUSDB18FullTrackDataset,
     MUSDB18SadDataset,

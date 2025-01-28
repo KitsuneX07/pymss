@@ -1,2 +1,2 @@
-from modules.bs_roformer.bs_roformer import BSRoformer
-from modules.bs_roformer.mel_band_roformer import MelBandRoformer
+from .bs_roformer import BSRoformer
+from .mel_band_roformer import MelBandRoformer

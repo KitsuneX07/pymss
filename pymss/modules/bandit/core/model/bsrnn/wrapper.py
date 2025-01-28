@@ -4,8 +4,8 @@ from typing import Dict, List, Optional, Tuple, Union
 import torch
 from torch import nn
 
-from modules.bandit.core.model._spectral import _SpectralComponent
-from modules.bandit.core.model.bsrnn.utils import (
+from .._spectral import _SpectralComponent
+from .utils import (
     BarkBandsplitSpecification, BassBandsplitSpecification,
     DrumBandsplitSpecification,
     EquivalentRectangularBandsplitSpecification, MelBandsplitSpecification,

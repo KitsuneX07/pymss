@@ -7,8 +7,8 @@ import torch
 import torchaudio as ta
 from torch.utils import data
 
-from modules.bandit.core.data._types import AudioDict, DataDict
-from modules.bandit.core.data.base import BaseSourceSeparationDataset
+from .._types import AudioDict, DataDict
+from ..base import BaseSourceSeparationDataset
 
 
 class MUSDB18BaseDataset(BaseSourceSeparationDataset, ABC):
