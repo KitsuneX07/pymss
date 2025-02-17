@@ -15,7 +15,7 @@ pip install pymss
 
 Here's a simple example.
 ```python
-from pymss MSSeparator, get_separation_logger
+from pymss import MSSeparator, get_separation_logger
 
 # init
 separator = MSSeparator(
